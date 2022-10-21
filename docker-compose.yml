@@ -1,0 +1,15 @@
+version: '3'
+services:
+  frontend:
+    container_name: "scuti-react-codebase"
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    command: yarn dev
+    ports:
+      - "5001:5001"
+    stdin_open: true
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    restart: always

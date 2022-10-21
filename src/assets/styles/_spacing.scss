@@ -1,0 +1,93 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@for $x from 0 through 10 {
+  .m-#{$x*5} {
+    margin: $x*5px;
+  }
+}
+
+@for $x from 0 through 10 {
+  .mx-#{$x*5} {
+    margin-left: $x*5px;
+    margin-right: $x*5px;
+  }
+}
+
+@for $x from 0 through 10 {
+  .my-#{$x*5} {
+    margin-top: $x*5px;
+    margin-bottom: $x*5px;
+  }
+}
+
+@for $x from 0 through 10 {
+  .mt-#{$x*5} {
+    margin-top: $x*5px;
+  }
+}
+
+@for $x from 0 through 10 {
+  .mr-#{$x*5} {
+    margin-right: $x*5px;
+  }
+}
+
+@for $x from 0 through 10 {
+  .mb-#{$x*5} {
+    margin-bottom: $x*5px;
+  }
+}
+
+@for $x from 0 through 10 {
+  .ml-#{$x*5} {
+    margin-left: $x*5px;
+  }
+}
+
+// Padding
+@for $x from 0 through 10 {
+  .p-#{$x*5} {
+    padding: $x*5px;
+  }
+}
+
+@for $x from 0 through 10 {
+  .px-#{$x*5} {
+    padding-left: $x*5px;
+    padding-right: $x*5px;
+  }
+}
+
+@for $x from 0 through 10 {
+  .py-#{$x*5} {
+    padding-top: $x*5px;
+    padding-bottom: $x*5px;
+  }
+}
+
+@for $x from 0 through 10 {
+  .pt-#{$x*5} {
+    padding-top: $x*5px;
+  }
+}
+
+@for $x from 0 through 10 {
+  .pr-#{$x*5} {
+    padding-right: $x*5px;
+  }
+}
+
+@for $x from 0 through 10 {
+  .pb-#{$x*5} {
+    padding-bottom: $x*5px;
+  }
+}
+
+@for $x from 0 through 10 {
+  .pl-#{$x*5} {
+    padding-left: $x*5px;
+  }
+}

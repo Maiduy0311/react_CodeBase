@@ -1,0 +1,12 @@
+@import '@styles/variables';
+
+.app-breadcrumb {
+  background: #f1f1f1;
+  padding: 8px;
+
+  &.ant-breadcrumb {
+    a {
+      color: $info;
+    }
+  }
+}

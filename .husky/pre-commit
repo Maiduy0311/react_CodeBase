@@ -1,0 +1,20 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Check Prettier standards
+yarn prettier:check ||
+(
+  echo 'Your styling looks disgusting.
+    Run yarn prettier:fix, add changes and try commit again.';
+  false;
+)
+
+# Check tsconfig standards
+yarn check-types ||
+(
+  echo 'Failed Type check.
+    Are you seriously trying to write that? Make the changes required above.'
+  false;
+)
+
+echo 'Thank you for doing so well!'

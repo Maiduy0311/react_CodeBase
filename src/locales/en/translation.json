@@ -1,0 +1,12 @@
+{
+  "_ERROR_MESSAGE": "ERROR MESSAGE",
+  "emailErrorMessage": "The input is not valid E-mail!",
+  "passwordErrorMessage": "Please input your Password!",
+
+  "BUTTON": "BUTTON",
+  "btnLogin": "Login",
+
+  "___PLACEHOLDER": "PLACEHOLDER",
+  "email": "Email",
+  "password": "Password"
+}

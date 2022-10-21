@@ -1,0 +1,12 @@
+{
+  "___ERROR_MESSAGE": "ERROR MESSAGE",
+  "emailErrorMessage": "入力が有効な電子メールではありません!",
+  "passwordErrorMessage": "パスワードを入力してください。",
+
+  "___BUTTON": "BUTTON",
+  "btnLogin": "ログイン",
+
+  "___PLACEHOLDER": "PLACEHOLDER",
+  "email": "Eメール",
+  "password": "パスワード"
+}

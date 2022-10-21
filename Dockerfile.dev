@@ -1,0 +1,10 @@
+# 1. Build
+FROM node:14-alpine
+RUN apk add --no-cache python3 py3-pip make g++
+WORKDIR /app
+COPY package*.json ./
+RUN yarn install
+COPY . .
+
+EXPOSE 5001
+CMD [ "yarn", "dev"]

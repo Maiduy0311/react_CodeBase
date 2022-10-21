@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $bodyColor;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+#app-layout {
+  min-height: 100vh;
+
+  .ant-layout-sider {
+    background: #2f4791;
+  }
+
+  .ant-menu {
+    background: transparent;
+
+    &.ant-menu-inline {
+      border-right: none;
+      padding: 15px;
+
+      .ant-menu-item {
+        color: #fff;
+        font-weight: 600;
+        width: 100%;
+        margin: 0;
+        border-radius: 5px;
+        padding: 20px;
+        height: auto;
+        line-height: initial;
+
+        &:after {
+          display: none;
+        }
+      }
+
+      .ant-menu-submenu-selected {
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+
+        .ant-menu-item {
+          padding-left: 38px !important;
+        }
+      }
+
+      .ant-menu-submenu {
+        .ant-menu-submenu-title {
+          color: #fff;
+          font-weight: 600;
+          width: 100%;
+          margin: 0;
+          border-radius: 5px;
+          padding: 15px;
+          height: auto;
+          line-height: initial;
+
+          &:after {
+            display: none;
+          }
+
+          .ant-menu-submenu-arrow {
+            color: #fff;
+          }
+
+          a {
+            color: #fff;
+          }
+        }
+
+        .ant-menu-item-group-title {
+          color: #fff;
+        }
+      }
+    }
+
+    &.ant-menu:not(.ant-menu-horizontal) {
+      .ant-menu-item-selected {
+        background: #586ca6;
+      }
+    }
+
+    &.ant-menu {
+      .ant-menu-item {
+        a {
+          color: #fff;
+        }
+      }
+    }
+
+  }
+
+  .logo {
+    a {
+      display: block;
+      height: 100%;
+      text-align: center;
+
+      img {
+        width: 25%;
+      }
+    }
+  }
+}

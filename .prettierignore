@@ -1,0 +1,13 @@
+node_modules/*
+.DS_Store
+dist
+dist-ssr
+*.local
+build
+nginx/*
+src/assets/*
+*.scss
+.vscode/*
+README.md
+*.html
+docker-compose.yml
